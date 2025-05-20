@@ -1,0 +1,208 @@
+.casetitle {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.casetitle h1 {
+    font-size: 36px;
+    margin-bottom: 26px;
+}
+
+.casetitle p {
+    font-size: 16px;
+    color: #999999;
+}
+
+.case01 {
+    background: #eff4fc;
+    overflow: hidden;
+}
+
+.case01 .wrap {
+    width: 1600px !important;
+}
+
+.case01 ul {
+    margin-right: -2%;
+}
+
+.case01 li {
+    width: 100%;
+    border: 1px #f6f6f6 solid;
+    padding-bottom: 38%;
+    height: 0;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.case01 .list {
+    position: relative;
+}
+
+.case01 .list .bg1 {
+    position: absolute;
+    left: -1px;
+    width: auto !important;
+    z-index: 9;
+}
+
+.case01 .list .bg2 {
+    position: absolute;
+    right: 0;
+    width: auto !important;
+    z-index: 9;
+}
+
+.case01 li img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.seamlesswrap img {
+    width: 100%;
+    display: block;
+}
+
+.seamlesswrap .swiper-container-free-mode>.swiper-wrapper {
+    -webkit-transition-timing-function: linear!important;
+    -o-transition-timing-function: linear!important;
+    transition-timing-function: linear!important;
+}
+
+.seamlesswrap .swiper-container {
+    margin: 10px 0;
+}
+
+.case02 {
+    margin-bottom: 60px;
+}
+
+.case02 .list ul {
+    margin-right: 2%;
+}
+
+.case02 .list li {
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+.case02 .list .img {
+    height: 0;
+    position: relative;
+    margin-right: 2%;
+    box-sizing: border-box;
+    padding-bottom: 63%;
+    width: 100%;
+    display: block;
+}
+
+.case02 .list .img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.case02 .list .title {
+    width: 100%;
+    display: block;
+    height: 70px;
+    background: #d3d3d3;
+    line-height: 70px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.case03 {
+    /* background: url(../images/case_11.jpg) no-repeat center; */
+    background-size: cover;
+    /* padding-top: 180px; */
+    padding-bottom: 140px;
+    position: relative;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.case03 .profblf {
+    width: 31%;
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
+    margin-top: 100px;
+}
+
+.case03 .tit {
+    width: 100%;
+    overflow: hidden;
+}
+
+.case03 .tit p {
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    font-size: 60px;
+    line-height: 74px;
+    font-family: Arial;
+    font-weight: bold;
+    position: relative;
+    z-index: 3;
+}
+
+.case03 .tit h3,
+.case03 .tit h3 a {
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: normal;
+}
+
+.case03 .profbjs {
+    width: 100%;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 28px;
+    margin-top: 65px;
+}
+
+.case03 .fbtel {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: url(../images/icon6.png) no-repeat left center;
+    padding-left: 168px;
+    color: #fff;
+    padding-top: 50px;
+    margin-top: 116px;
+}
+
+.case03 .fbtel a {
+    display: block;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.case03 .gif {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.case03 .bg {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}

@@ -1,0 +1,681 @@
+/* 大屏幕（大桌面显示器，大于等于 1600px） */
+
+@media screen and (min-width:1600px) {
+    .mobile,
+    .m_img,
+    .m_nav {
+        display: none;
+    }
+    .fea {
+        height: 925px;
+    }
+    .fea_con {
+        width: 1570px;
+        height: 298px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .mobile,
+    .m_img,
+    .m_nav {
+        display: none;
+    }
+    .container,
+    .wrap {
+        width: 1200px;
+    }
+    .navwrap {
+        width: 95%;
+    }
+    .nav>ul>li {
+        font-size: 14px;
+    }
+    .nav {
+        width: 80%;
+    }
+    .head {
+        padding: 0 40px;
+    }
+    .index01 .djsb .img img {
+        width: 100%
+    }
+    .index01 .djsb .txt .t1 {
+        font-size: 30px;
+    }
+    .index01 .djsb .txt .t2 {
+        font-size: 20px;
+    }
+    .index_02 .adv_div {
+        top: 250px;
+    }
+    .index_02 .adv_tit {
+        font-size: 40px;
+    }
+    .index_02 .adv_ul li:hover .adv_div {
+        top: 50px;
+    }
+    .index_02 .adv_box p {
+        line-height: 60px;
+        font-size: 18px;
+    }
+    .index_02 .adv_ul li {
+        height: 630px;
+    }
+    .index03 {
+        height: 640px;
+    }
+    .index04 .adv_div {
+        top: 80px
+    }
+    .index04 .adv_tit {
+        font-size: 28px;
+    }
+    .index04 .adv_ul li {
+        height: 510px;
+    }
+    .index04 .adv_box {
+        font-size: 18px
+    }
+    .index05 .swiper-slide img {
+        height: 800px
+    }
+    .index03 h1 {
+        margin-top: 50px;
+    }
+    .aboutjs {
+        height: 840px;
+    }
+    .index03 .t2 {
+        width: 60%;
+    }
+    .index03 .t2 p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .he_zhsp3 {
+        width: 450px;
+    }
+    .nybanner .txt {
+        top: 28%;
+    }
+    .case03 .profblf {
+        width: 41%;
+        position: relative;
+        z-index: 99;
+    }
+    .navigation li {
+        font-size: 16px;
+        margin: 0 18px;
+    }
+    .case01 .wrap {
+        width: 1200px !important;
+    }
+}
+
+
+/* 小屏幕（手机） */
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+    .pc,
+    .head-top,
+    .header {
+        display: none;
+    }
+    .nav,
+    .he_b3p3le {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .container,
+    .wrap {
+        padding: 0 .2rem;
+        overflow: hidden;
+        width: auto;
+    }
+    .m_img {
+        display: block;
+        height: 1.1rem;
+        background: #acafb2;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: Center;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        padding: 0 .2rem;
+        -moz-box-shadow: 0px 4px 6px #d4d5d6;
+        -webkit-box-shadow: 0px 4px 6px #d4d5d6;
+        box-shadow: 0px 4px 6px #d4d5d6;
+    }
+    .m_img .headlf {
+        float: left;
+    }
+    .m_img .headcent {
+        float: left;
+        margin-left: .2rem;
+        color: #e61c42;
+        font-size: .18rem;
+        line-height: .3rem;
+    }
+    .m_img .headcent select {
+        width: 1.2rem;
+        height: .4rem;
+        border: 0;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background: url('../images/arrow_06.html') 80% center no-repeat;
+        background-size: .13rem;
+        background-color: #e5e5e5;
+        display: block;
+        padding-left: .1rem;
+        margin-left: .3rem;
+    }
+    .m_img .headlf .m_logo {
+        height: auto;
+        width: 70%;
+        display: block
+    }
+    .m_img .headrg {
+        position: absolute;
+        right: .2rem;
+    }
+    .m_img .headrg a .m_menuimg {
+        height: .45rem;
+        width: .53rem;
+        display: block
+    }
+    .m_nav {
+        display: block;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+        z-index: 10000
+    }
+    .m_nav .closecover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #0b0d19;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        left: 0px;
+        top: 0px;
+        z-index: 1
+    }
+    .m_nav .closeicon {
+        position: absolute;
+        width: 20%;
+        left: 0;
+        top: 5%;
+        z-index: 100;
+        text-align: center;
+        filter: alpha(opacity=0);
+        opacity: 0
+    }
+    .m_nav .m_navList {
+        position: absolute;
+        width: 80%;
+        right: 0px;
+        top: 0px;
+        background: #0b0d19;
+        height: 100%;
+        z-index: 100;
+        right: -80%;
+        overflow-y: scroll;
+    }
+    .m_nav .m_navList ul {
+        padding-left: 5%;
+        padding-right: 5%
+    }
+    .m_nav .m_navList ul li {
+        border-bottom: 1px solid #232530
+    }
+    .m_nav .m_navList ul li a {
+        display: block;
+        height: 45px;
+        color: #fff;
+        line-height: 45px;
+        padding-left: 5%;
+        font-size: 16px
+    }
+    .m_nav .m_navList ul li .m_f_a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%
+    }
+    .m_nav .m_navList ul li .m_f_a a {
+        flex: 1;
+    }
+    .m_nav .m_navList ul li .m_f_a i {
+        width: 40px;
+        height: 35px;
+        box-sizing: border-box;
+        padding: 0 5px;
+        display: block;
+    }
+    .m_nav .icon {
+        background: url(../images/plus.png) 100% no-repeat;
+        background-position: 50% 50%;
+        -webkit-transition: all 0s;
+        -moz-transition: all 0s;
+        transition: all 0s
+    }
+    .icon_on {
+        background: url(../images/reduce.jpg) 50% no-repeat!important;
+        background-position: 50% 50%;
+        -webkit-transition: all 0s;
+        -moz-transition: all 0s;
+        transition: all 0s
+    }
+    .m_nav .m_navList ul li .m_s_nav {
+        display: none;
+        width: 100%;
+    }
+    .m_nav .m_navList ul li .m_s_nav a {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        padding-left: 10%;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 90%;
+        text-overflow: ellipsis;
+    }
+    .m_img .language {
+        position: absolute;
+        right: .8rem;
+    }
+    .m_img .language img {
+        width: 80%;
+    }
+    .banner {
+        margin-top: 1.1rem;
+    }
+    .index-title {
+        margin: .6rem 0;
+    }
+    .index-title .t1 {
+        font-size: .46rem;
+    }
+    .index-title .more {
+        width: 1.6rem;
+        height: .5rem;
+        line-height: .5rem;
+        font-size: .22rem;
+    }
+    .index01 .djsb {
+        display: flex;
+        flex-wrap: wrap
+    }
+    .index01 .djsb .img img {
+        width: 100%;
+        margin-top: .2rem;
+    }
+    .index01 .djsb .item a {
+        display: block;
+        height: auto;
+    }
+    .index01 .djsb .txt {
+        margin-right: 0;
+        width: 100%;
+    }
+    .index01 .djsb .item .img {
+        width: 100%;
+    }
+    .index01 .djsb .txt .t1 {
+        font-size: .36rem;
+        margin-top: .2rem;
+    }
+    .index01 .djsb .txt .t2 {
+        font-size: .24rem;
+        margin-top: .1rem;
+    }
+    .index_02 .adv_ul li {
+        height: 4rem;
+    }
+    .index_02 .adv_div {
+        top: 1rem;
+        padding: 0 .2rem;
+    }
+    .index_02 .adv_tit {
+        font-size: .4rem;
+        margin-bottom: .2rem;
+    }
+    .index_02 .adv_words {
+        height: auto;
+        line-height: .3rem;
+        font-size: .2rem;
+    }
+    .index03 {
+        height: 4rem;
+    }
+    .index03 h1 {
+        font-size: .3rem;
+        line-height: .6rem;
+        padding-top: .4rem;
+        margin-bottom: .4rem;
+        font-weight: bold;
+    }
+    .index03 .list {
+        display: none
+    }
+    .index03 .t1 {
+        font-size: .24rem;
+        line-height: .4rem;
+    }
+    .indexTitle {
+        margin: .6rem 0;
+    }
+    .indexTitle .left {
+        font-size: .46rem;
+    }
+    .indexTitle .right {
+        width: 1.6rem;
+        height: .5rem;
+        line-height: .5rem;
+        font-size: .22rem;
+    }
+    .index04 .advice .adv_ul {
+        flex-wrap: wrap;
+    }
+    .index04 .adv_ul li {
+        width: 48%;
+        margin-bottom: .2rem;
+    }
+    .index04 .adv_div {
+        top: .5rem;
+    }
+    .index04 .adv_img {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin: .25rem auto;
+        background-size: 50% 50% !important;
+    }
+    .index04 .adv_div .adv_tit {
+        font-size: .3rem;
+    }
+    .index04 {
+        margin-bottom: .5rem;
+    }
+    .index05 .box1 {
+        position: relative;
+        margin-top: 0;
+    }
+    .index05 .box1 .title {
+        font-size: .3rem;
+        margin-bottom: .2rem;
+        padding-left: .2rem;
+    }
+    .index05 .box1 .t1 {
+        font-size: .22rem;
+        line-height: .37rem;
+        margin-bottom: .4rem;
+    }
+    .index05 .list {
+        position: relative;
+        bottom: 0;
+    }
+    .index05 .list .item {
+        width: 30%;
+        height: 1.5rem;
+        font-size: .24rem;
+    }
+    .index05 .list .item img {
+        margin: .2rem auto;
+        width: .5rem;
+        height: .4rem;
+    }
+    .index05 .wrap {
+        position: initial;
+    }
+    .index05 .fanye {
+        bottom: 3rem;
+        left: 0;
+    }
+    .index05 .swiper-button-next,
+    .index05 .swiper-button-prev {
+        width: .7rem;
+        height: .7rem;
+    }
+    .index06 .item {
+        width: 30%;
+        height: 1.7rem;
+        margin-bottom: .3rem;
+    }
+    .index07 .box {
+        width: 100%;
+        margin-bottom: .3rem;
+    }
+    .index07 .box .img {
+        padding-bottom: 70%;
+    }
+    .index07 .box .title {
+        font-size: .28rem;
+        line-height: .4rem;
+        margin-bottom: .2rem;
+    }
+    .index07 .box .detail {
+        font-size: .22rem;
+    }
+    .index07 .content {
+        display: block;
+    }
+    .index07 .box .item1 {
+        padding: .3rem;
+        box-sizing: border-box;
+        margin-bottom: .2rem;
+    }
+    .index07 .box .item1 .bt {
+        font-size: .26rem;
+        margin-bottom: .2rem;
+    }
+    .index07 .box .item1 .xq {
+        font-size: .22rem;
+        line-height: .36rem;
+        padding-bottom: .2rem;
+    }
+    .index07 .box .item1 .date1 {
+        margin-top: .2rem;
+    }
+    .index07 .box .item1 .date1 {
+        display: none;
+    }
+    .index07 .box .item2 {
+        padding: .3rem;
+    }
+    .index07 .box .item2 .rq {
+        padding-right: .2rem;
+        text-align: center;
+    }
+    .index07 .box .item2 .rq p {
+        font-size: .42rem;
+    }
+    .index07 .box .item2 .rq span {
+        font-size: .22rem;
+    }
+    .index07 .box .item2 .wz {
+        padding-left: .2rem;
+        font-size: .24rem;
+        line-height: .36rem;
+    }
+    .copyright {
+        line-height: .6rem;
+        font-size: .2rem;
+    }
+    .nybanner {
+        margin-top: 1.1rem;
+    }
+    .nybanner .txt {
+        top: 1.5rem;
+        left: .5rem;
+    }
+    .nybanner .txt .t1 {
+        font-size: .56rem;
+        margin-bottom: .2rem;
+    }
+    .nybanner .txt .t2 {
+        font-size: .22rem;
+    }
+    .aboutjs .t2 {
+        display: none;
+    }
+    .about-title {
+        margin: .4rem 0;
+    }
+    .about-title h1 {
+        font-size: .46rem;
+        margin-bottom: .2rem;
+        font-weight: bold;
+    }
+    .about-title p {
+        font-size: .26rem;
+    }
+    .about03 .sideMenu h3 {
+        font-size: .36rem;
+        line-height: 1rem;
+    }
+    .about03 .sideMenu li {
+        font-size: .22rem;
+        line-height: .5rem;
+    }
+    .he_zhsp3.inited,
+    .he_maskls,
+    .he_maskl {
+        display: none;
+    }
+    .he_b3p3ri {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .he_b3p3lzi {
+        position: static;
+        transform: inherit;
+        display: block;
+    }
+    .he_b3p3lzi p {
+        font-size: .3rem;
+        font-weight: bold;
+    }
+    .he_b3p3ny {
+        min-height: auto;
+        margin-top: .3rem;
+    }
+    .he_b3p3dty p {
+        font-size: .36rem;
+        font-weight: bold;
+        margin-top: .2rem;
+    }
+    .he_b3p3dtfs p {
+        font-size: .22rem;
+    }
+    .he_b3p3dtya {
+        margin-top: .3rem;
+    }
+    .he_b3p3dtya p {
+        font-size: .22rem;
+    }
+    .he_b3p3dli {
+        margin-bottom: .5rem;
+    }
+    .he_b3p3dli {
+        opacity: 1 !important;
+    }
+    .about05 {
+        padding-bottom: .5rem;
+    }
+    .about06 h1 {
+        font-size: .46rem;
+        margin: .5rem .2rem;
+        color: #fff;
+    }
+    .about06 p {
+        font-size: .22rem;
+        line-height: .36rem;
+    }
+    .about06 {
+        height: 6rem;
+    }
+    .casetitle {
+        margin: .8rem 0;
+    }
+    .casetitle h1 {
+        font-size: .36rem;
+        margin-bottom: .26rem;
+        font-weight: bold;
+    }
+    .casetitle p {
+        font-size: .22rem;
+    }
+    .case01 .list .bg1,
+    .case01 .list .bg2 {
+        display: none;
+    }
+    .case02 .list li {
+        width: 48%;
+    }
+    .case02 .list .title {
+        height: .7rem;
+        line-height: .7rem;
+        font-size: .24rem;
+    }
+    .pagination a {
+        padding: .04rem .15rem;
+        font-size: .2rem;
+        line-height: .4rem;
+    }
+    .case03 .profblf {
+        width: 100%;
+        margin-top: 0
+    }
+    .case03 .tit p {
+        color: #333;
+        font-size: .6rem;
+        line-height: .74rem;
+    }
+    .case03 .tit h3,
+    .case03 .tit h3 a {
+        color: #333;
+        font-size: .3rem;
+        line-height: .35rem;
+    }
+    .case03 .profbjs {
+        color: #333;
+        line-height: .38rem;
+        margin-top: .6rem;
+        font-size: .24rem;
+        height: 3.8rem;
+    }
+    .case03 .fbtel {
+        display: none;
+    }
+    .box5-ly .wrap {
+        height: 7rem;
+        display: block;
+    }
+    .box5-ly {
+        height: 8rem;
+    }
+    .box5-ly .txt {
+        font-size: .33rem;
+        line-height: .46rem;
+        margin: .3rem 0;
+    }
+    .box5-ly .liuyan {
+        width: 100%;
+    }
+    .case01 .wrap {
+        width: 100% !important;
+    }
+}

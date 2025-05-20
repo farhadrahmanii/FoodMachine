@@ -1,0 +1,229 @@
+@charset "utf-8";
+.w-accor {
+    overflow: hidden;
+    position: relative;
+    height: 700px;
+}
+
+.w-accor ul,
+.w-accor li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.w-accor ul {
+    width: 101%;
+}
+
+.w-accor li {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 14.2%;
+    height: 700px;
+    border-right: 1px #cdcdcd solid;
+}
+
+.accorClick li {
+    cursor: pointer;
+}
+
+.w-accor li .item {
+    position: relative;
+}
+
+.w-accor li>a {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.w-accor h3 {
+    font-size: 125%;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.w-accor .acr_p {
+    margin-top: 0.5em;
+}
+
+.w-accor0 li img {
+    max-width: 100%;
+}
+
+.w-accor5 li img {
+    max-width: 100%;
+}
+
+.w-accor5 li .cont_ar {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 700px;
+}
+
+.w-accor5 li .cont_ar:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    opacity: 0.35;
+    *filter: alpha(opacity=35);
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=35);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.w-accor5 li h3 {
+    width: 1.2em;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -0.6em;
+    top: 50%;
+    top: 10%\9;
+    *top: 10%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    color: #333333;
+}
+
+:root .w-accor5 li h3 {
+    top: 50%;
+}
+
+.w-accor5 li h3 .num {
+    padding-bottom: 15px;
+}
+
+.w-accor5 li .acr_p {
+    line-height: 1.5;
+    height: 190px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    background: #ce0001;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+    opacity: 0;
+    *filter: alpha(opacity=0);
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    padding: 0 60px;
+}
+
+.w-accor5 li .acr_p .t1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.w-accor5 li .acr_p .t2 {
+    font-weight: bold;
+    font-size: 78px;
+    color: #e69e9f;
+}
+
+.w-accor5 li .i_img {
+    position: absolute;
+    height: 516px;
+    line-height: 516px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    text-align: center;
+    opacity: 0;
+    *filter: alpha(opacity=0);
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.w-accor5 li .i_img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.w-accor5 li.cur .cont_ar:before {
+    height: 6.4em;
+    opacity: 0.5;
+    *filter: alpha(opacity=50);
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
+
+.w-accor5 li.cur .acr_p {
+    transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+    opacity: 1;
+    *filter: alpha(opacity=100);
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+.w-accor5 li.cur h3 {
+    text-align: center;
+    opacity: 0;
+    *filter: alpha(opacity=0);
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.w-accor5 li.cur .i_img {
+    transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+    opacity: 1;
+    *filter: alpha(opacity=100);
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
+@media (max-width:960px) {
+    .w-accor h3 {
+        font-size: 110%;
+    }
+    .w-accor .acr_p {
+        font-size: 90%;
+    }
+    .w-accor5 li .img_ar {
+        height: 350px !important;
+    }
+    .w-accor5 li .img_ar img {
+        height: 100%;
+        max-width: inherit;
+    }
+    .w-accor5 li .i_img {
+        height: 80px;
+        line-height: 80px;
+        margin-top: -40px;
+    }
+}
+
+@media (max-width:480px) {
+    .w-accor5 li .img_ar {
+        height: 20em !important;
+    }
+    .w-accor5 li .i_img {
+        height: 5em;
+        line-height: 5em;
+        margin-top: -2.5em;
+    }
+}
